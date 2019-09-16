@@ -8,6 +8,8 @@ Upon visiting the web page, we are presented with a navbar containing
 
 We are able to learn that the webserver is running Apache + PHP through basic observation. (Links contain .php, Server included in response headers)
 
+In `About`, it tells us the flag is in flag.txt. Awesome.
+
 For `User`, the contents are
 
 ```
