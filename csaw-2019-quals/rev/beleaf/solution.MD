@@ -3,7 +3,10 @@
 
 ![IDA data](data.jpg)
 
-Code 
+
+Originally I intended to use [angr](https://github.com/angr/angr) to solve this problem, but I have forgotten how angr works since the last time I touched angr was about 2 years ago. I spent around 3 hours playing with angr to figure out how to constraint stdin but I still couldn't figure out how.
+
+So I gave up and decided to do it manually. Code  :
 ```py
 flag_pos = [1,9,17,39,2,0,18,3,8,18,9,18,17,1,3,19,4,3,5,21,46,10,3,10,18,3,1,46,22,46,10,18,6]
 
